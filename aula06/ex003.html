@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(126, 126, 211);
+            color: white;  /*é assim que se faz um comentário em css*/
+            font: normal 18pt Arial; 
+        }
+        h1 {
+            color: rgb(245, 229, 9);
+        }
+    </style>
+</head>
+<body>
+   <h1>Olá, Mundo!</h1> <!--é assim que se adiciona um comentário em html-->
+   <p>Já me livrei da maldição</p>
+   <script>
+    var N1 = Number.parseFloat(window.prompt ('Digite um número: ')) //Number. ou  Number.parseInt serve para converter de string para Numero
+    var N2 = Number.parseFloat(window.prompt ('Digite outro número: ')) //Number.parseFloat para Numeros Reais
+    var S = N1 + N2
+    window.alert(`A soma entre ${N1} e ${N2} é igual a ${S}`)
+    //(number + number) para adição
+    //(string + string) para concatenação
+   </script>
+</body>
+</html>
